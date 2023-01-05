@@ -2,6 +2,12 @@ html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 2.8rem;
@@ -13,11 +19,12 @@ body {
 }
 
 .wrapper {
-    padding: 20px 120px 90px 120px;
+    padding: 20px 120px 50px 120px;
 }
 
 .header {
     justify-content: space-between;
+    padding-bottom: 80px;
 }
 
 .header-lang {
@@ -41,8 +48,12 @@ body {
     text-transform: none;
 }
 
-.sup {
+.sup-text {
     vertical-align: super;
+}
+
+p {
+    padding-bottom: 40px;
 }
 
 .bg-gray {
@@ -51,10 +62,6 @@ body {
 
 .italic {
     font-style: italic;
-}
-
-.bold {
-    font-weight: 700;
 }
 
 .link {
