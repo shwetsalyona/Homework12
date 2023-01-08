@@ -5,14 +5,14 @@
 }
 
 section {
-    width: 25%;
+    width: 32%;
     position: sticky;
     top: 159px;
     align-self: flex-start;
 }
 
 article {
-    width: 75%;
+    width: 68%;
     background: url("../images/bg-picture.png") no-repeat fixed;
     background-position-x: 49vw;
     background-position-y: 159px;
