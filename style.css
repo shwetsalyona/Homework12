@@ -19,12 +19,19 @@ body {
 }
 
 .wrapper {
-    padding: 20px 120px 50px 120px;
+    width: 90%;
+    margin: 0 auto;
+    /*padding-top: 20px;*/
+    padding-bottom: 50px;
+    /*padding: 20px 120px 50px 120px;*/
 }
 
 .header {
     justify-content: space-between;
-    padding-bottom: 85px;
+    padding: 20px 0 85px 0;
+    position: fixed;
+    background-color: white;
+    width: 90%;
 }
 
 .header-lang {
@@ -38,14 +45,24 @@ body {
 
 .main {
     gap: 38px;
+    justify-content: space-between;
+    padding-top: 159px;
 }
 
 section {
-    width: 30%;
+    width: 25%;
+    position: sticky;
+    top: 159px;
+    align-self: flex-start;
 }
 
 article {
-    width: 70%;
+    width: 75%;
+    background: url("./images/bg-picture.png") no-repeat fixed;
+    /*background-image: url("./images/bg-picture.png");*/
+    /*background-repeat: no-repeat;*/
+    background-position-x: right;
+    background-position-y: 159px;
 }
 
 .sidebar-link {
